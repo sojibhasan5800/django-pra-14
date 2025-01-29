@@ -1,0 +1,19 @@
+/* Center the form on the page */
+.contact {
+
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    height: 100vh;  /* Full viewport height */
+}
+
+/* Style the form */
+.contact form {
+    background: #ffffff;  /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(246, 116, 116, 0.1);  /* Light shadow */
+    width: 400px;  /* Set a width */
+}
+.commet{
+    border: 22px solid rebeccapurple;
+}

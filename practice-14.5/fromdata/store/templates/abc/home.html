@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock extra_css %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="contact">
+      {{ block.super }}
+    <form action="" method='post'>
+        {% csrf_token %}
+        {{forms | crispy}}
+        <button class ="btn btn-danger ">submit</button>
+    </form>
+  </div>
+{% endblock content %}
