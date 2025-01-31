@@ -1,0 +1,11 @@
+.btn_css{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(45, 41, 32);
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff3333;
+}
